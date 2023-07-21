@@ -1,0 +1,33 @@
+.col {
+    display: inline-block;
+    position: relative;
+}
+
+.textbox-11 {
+    border: 0;
+    padding: 2px 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    color: #333;
+    width: 90%;
+    height: 30;
+    letter-spacing: 1px;
+    outline: 0;
+    font-family: Arial, sans-serif;
+}
+
+.textbox-11~.focus-border-11 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #3399FF;
+    transition: 0.4s;
+}
+
+
+.textbox-11:focus~.focus-border-11 {
+    width: 100%;
+    transition: 0.4s;
+}
